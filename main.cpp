@@ -39,5 +39,11 @@ int main () {
     assert(unoptimizedDCPower(2,3) == 8);
     assert(optimizedDCPower(2,3) == 8);
 
+    assert(naivePower(2,4) == 16);
+    assert(unoptimizedDCPower(2,4) == 16);
+    assert(optimizedDCPower(2,4) == 16);
 
+    assert(naivePower(2,0) == 1);
+    assert(unoptimizedDCPower(2,0) == 1);
+    assert(optimizedDCPower(2,0) == 1);
 }
